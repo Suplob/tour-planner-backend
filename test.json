@@ -4,21 +4,21 @@
     "name": "Italy",
     "price": "2000",
     "duration": "3 days 2 nights",
-    "groupSize": "5+"
+    "groupSize": "5 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "name": "Japan",
     "price": "2500",
     "duration": "2 days 1 night",
-    "groupSize": "10+"
+    "groupSize": "10 +"
   },
   {
-    "img": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "name": "Japan",
+    "img": "https://images.unsplash.com/photo-1420745981456-b95fe23f5753?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Bangladesh",
     "price": "2500",
     "duration": "2 days 1 night",
-    "groupSize": "10+"
+    "groupSize": "10 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
@@ -32,35 +32,35 @@
     "name": "Germany",
     "price": "2000",
     "duration": "2 days 1 night",
-    "groupSize": "10+"
+    "groupSize": "10 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "name": "France",
     "price": "3000",
     "duration": "2 days 1 night",
-    "groupSize": "15+"
+    "groupSize": "15 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "name": "Spain",
     "price": "3500",
     "duration": "2 days 1 night",
-    "groupSize": "15+"
+    "groupSize": "15 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
     "name": "Canada",
     "price": "4000",
     "duration": "3 days 2 night",
-    "groupSize": "10+"
+    "groupSize": "10 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "name": "Switzerland",
     "price": "4500",
     "duration": "2 days 1 night",
-    "groupSize": "5+"
+    "groupSize": "5 +"
   },
   {
     "img": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
