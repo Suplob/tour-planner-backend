@@ -22,6 +22,7 @@ async function run() {
     await client.connect();
 
     const servicesCollection = client.db("tour-planner").collection("services");
+    const ordersCollection = client.db("tour-planner").collection("orders");
     // get methods
     app.get("/allServices", async (req, res) => {
       const result = await servicesCollection.find().toArray();
@@ -31,6 +32,12 @@ async function run() {
       const result = await servicesCollection.findOne({
         _id: ObjectId(req.params.id),
       });
+      res.json(result);
+    });
+
+    //post methods
+    app.post("/orderItem", async (req, res) => {
+      const result = await ordersCollection.insertOne(req.body);
       res.json(result);
     });
   } catch {
