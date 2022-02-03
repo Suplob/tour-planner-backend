@@ -48,6 +48,14 @@ async function run() {
       const result = await ordersCollection.insertOne(req.body);
       res.json(result);
     });
+
+    //delete methods
+    app.delete("/userOrderDelete/:id", async (req, res) => {
+      const result = await ordersCollection.deleteOne({
+        _id: ObjectId(req.params.id),
+      });
+      res.json(result);
+    });
   } catch {
     // await client.close;
   }
