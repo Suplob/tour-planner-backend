@@ -50,7 +50,7 @@ async function run() {
     });
 
     //delete methods
-    app.delete("/deleteorder/:id", async (req, res) => {
+    app.delete("/deleteUserOrder/:id", async (req, res) => {
       const result = await ordersCollection.deleteOne({
         _id: ObjectId(req.params.id),
       });
