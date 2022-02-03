@@ -60,6 +60,15 @@ async function run() {
       });
       res.json(result);
     });
+
+    // put methods
+    app.put("/confirmOrder/:id", async (req, res) => {
+      const id = req.params.id;
+      const updateDoc = { $set: { status: "Confirmed" } };
+      const filter = { _id: ObjectId(id) };
+      const result = await ordersCollection.updateOne(filter, updateDoc);
+      res.json(result);
+    });
   } catch {
     // await client.close;
   }
