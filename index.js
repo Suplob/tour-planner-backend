@@ -25,7 +25,7 @@ async function run() {
     const ordersCollection = client.db("tour-planner").collection("orders");
     // get methods
     app.get("/allServices", async (req, res) => {
-      const result = await servicesCollection.find().toArray();
+      const result = await servicesCollection.find({}).toArray();
       res.json(result);
     });
     app.get("/singleService/:id", async (req, res) => {
@@ -34,10 +34,12 @@ async function run() {
       });
       res.json(result);
     });
-    app.get("/singleOrder/:email", async (req, res) => {
-      const result = await ordersCollection.findOne({
-        email: req.params.email,
-      });
+    app.get("/userOrder/:email", async (req, res) => {
+      const result = await ordersCollection
+        .find({
+          email: req.params.email,
+        })
+        .toArray();
       res.json(result);
     });
 
