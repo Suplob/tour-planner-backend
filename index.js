@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Server side of tour planner");
+  res.send("Server side of tour planner askpdsas");
 });
 
 async function run() {
