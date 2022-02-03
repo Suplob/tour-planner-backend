@@ -42,6 +42,10 @@ async function run() {
         .toArray();
       res.json(result);
     });
+    app.get("/allOrder", async (req, res) => {
+      const result = await ordersCollection.find({}).toArray();
+      res.json(result);
+    });
 
     //post methods
     app.post("/orderItem", async (req, res) => {
