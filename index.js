@@ -22,13 +22,15 @@ async function run() {
     await client.connect();
 
     const servicesCollection = client.db("tour-planner").collection("services");
-
+    // get methods
     app.get("/allServices", async (req, res) => {
       const result = await servicesCollection.find().toArray();
       res.json(result);
     });
-    app.get("/limitedServices", async (req, res) => {
-      const result = await servicesCollection.find({}).limit(6).toArray();
+    app.get("/singleService/:id", async (req, res) => {
+      const result = await servicesCollection.findOne({
+        _id: ObjectId(req.params.id),
+      });
       res.json(result);
     });
   } catch {
